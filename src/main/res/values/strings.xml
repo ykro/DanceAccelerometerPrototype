@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DanceAccelerometerPrototype</string>
+    <string name="main.message.status">Status</string>
+    <string name="main.message.debug">Debug</string>
+    <string name="main.message.start">Empezar</string>
+    <string name="main.message.stop">Detener</string>
+    <string name="main.message.online">Online</string>
+    <string name="main.message.offline">Offline</string>
+</resources>

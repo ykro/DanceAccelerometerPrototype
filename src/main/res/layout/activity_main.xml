@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bitandik.labs.danceaccelerometerprototype.MainActivity">
+
+    <Button
+        android:text="@string/main.message.stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnStop"
+        android:layout_toRightOf="@+id/btnStart"
+        android:layout_toEndOf="@+id/btnStart"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignBottom="@+id/btnStart" />
+
+
+    <TextView
+        android:text="@string/main.message.status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/txtStatus"
+        android:layout_below="@+id/btnStart"
+        android:layout_alignLeft="@+id/btnStart"
+        android:layout_alignStart="@+id/btnStart" />
+
+    <Button
+        android:text="@string/main.message.start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnStart"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
